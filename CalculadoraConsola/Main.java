@@ -33,11 +33,11 @@ public class Main {
                 resultado = calculadora.dividir(num1, num2);
                 break;
             default:
-                System.out.println("❌ Operador no válido.");
+                System.out.println(" Operador no válido.");
                 continue;
                 
            }
-           System.out.println("✅ Resultado: " + resultado);
+           System.out.println(" Resultado: " + resultado);
 
         System.out.println("¿Desea realizar otra operación? (s/n) responder solo con 's' o 'n'");
        opcion = scanner.next();
